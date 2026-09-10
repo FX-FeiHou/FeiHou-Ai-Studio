@@ -2,6 +2,12 @@
 
 本仓库仅发布 Windows 客户端更新包、版本清单与说明。
 
+## 首次安装
+
+打开 [最新发布](https://github.com/FX-FeiHou/feihou-ai-studio-releases/releases/latest)，选择 `FeiHou-Windows-1.1.4-full.zip`（约 35 MiB）。完整解压后双击“花果山AI灵境坊.exe”，保留同目录的 app 文件夹。已包含 Windows Python 环境和在线更新配置，API Key 需自行填写。
+
+GitHub 自动生成的 Source code ZIP/TAR 是发布说明仓库，不是客户端。
+
 ## 获取更新
 
 从 [Releases](https://github.com/FX-FeiHou/feihou-ai-studio-releases/releases/latest) 下载发布文件。
