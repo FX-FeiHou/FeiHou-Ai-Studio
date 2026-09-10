@@ -2,6 +2,11 @@
 
 本仓库仅发布 Windows 客户端更新包、版本清单与说明。
 
+## 客户端下载
+
+- [GitHub 下载](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/latest)
+- [夸克网盘下载](https://pan.quark.cn/s/327190b9484c)
+
 ## 首次安装
 
 打开 [最新发布](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/latest)，选择 `FeiHou-Ai-Studio-Win-1.1.4-full.zip`（约 35 MiB）。完整解压后双击“花果山AI灵境坊.exe”，保留同目录的 app 文件夹。已包含 Windows Python 环境和在线更新配置，API Key 需自行填写。
@@ -18,12 +23,6 @@ GitHub 自动生成的 Source code ZIP/TAR 是发布说明仓库，不是客户�
 - 安装前完成或停止正在运行的生成任务；安装时客户端需要关闭并重启。
 - 更新替换程序文件，保留 API 配置、模型列表、画布、素材和生成结果。为重要作品保留独立备份。
 
-## 下载线路
-
-- GitHub Releases：官方发布文件。
-- Cloudflare R2：`https://img.fei-hou.net/lingjing-updates/windows/` 下的同一签名更新包。
-
-客户端下载后验证签名和 SHA-256，线路仅负责传输，不能绕过校验。R2 和 GitHub 的可达性取决于所在网络，不承诺固定下载速度。
 
 ## 安全
 
