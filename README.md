@@ -10,7 +10,7 @@
 
 
 
-- [GitHub 下载](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/latest)
+- [GitHub 下载](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/download/v1.6.6/FeiHou-Ai-Studio-Win-1.6.6-full.zip)
 
 - [夸克网盘下载](https://pan.quark.cn/s/327190b9484c)
 
