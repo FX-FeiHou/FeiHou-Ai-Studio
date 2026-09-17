@@ -20,7 +20,7 @@
 
 
 
-打开 [完整安装包发布页](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/tag/v1.5.9)，选择 `FeiHou-Ai-Studio-Win-1.5.9-full.zip`（约 35 MiB）。完整解压后双击“花果山AI灵境坊.exe”，保留同目录的 app 文件夹。已包含 Windows Python 环境和在线更新配置，API Key 需自行填写。
+打开 [完整安装包发布页](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/tag/v1.6.6)，选择 `FeiHou-Ai-Studio-Win-1.6.6-full.zip`（约 35 MiB）。完整解压后双击“花果山AI灵境坊.exe”，保留同目录的 app 文件夹。已包含 Windows Python 环境和在线更新配置，API Key 需自行填写。
 
 
 
