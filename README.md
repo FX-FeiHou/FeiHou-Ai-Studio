@@ -2,7 +2,7 @@
 
 
 
-本仓库仅发布 Windows 客户端更新包、版本清单与说明。
+本仓库发布花果山AI灵境坊 Windows 与 macOS 客户端的安装包、版本清单与说明。
 
 
 
@@ -49,6 +49,14 @@ GitHub 自动生成的 Source code ZIP/TAR 是发布说明仓库，不是客户�
 
 
 
+
+## macOS 版
+
+macOS 13 及以上（Apple Silicon 与 Intel 通用）到 [macOS 完整包发布页](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/tag/mac-v1.6.6) 下载 `FeiHou-Mac-Universal-1.6.6.zip`（约 79 MiB），完整解压后双击「花果山AI灵境坊.app」。包里已含 arm64 与 Intel 两套 Python 环境，启动器按当前芯片自动选择。
+
+macOS 版标记为 **pre-release**，不出现在 `releases/latest`，也不影响 Windows 客户端的更新线路。它使用独立的 macOS 更新清单（`lingjing-updates/mac/stable/update.json`）；程序内「检查更新」只提示新版本并打开下载页，**不自动安装**。换版本时退出程序后整体替换 app 文件夹与 .app 即可，个人配置与作品保留在 app 内。
+
+本包未做 Apple 开发者签名与公证，首次打开可能需要在「系统设置 → 隐私与安全性」中选择「仍要打开」。
 
 ## 安全
 
