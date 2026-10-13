@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.webp" alt="花果山AI灵境坊" width="100%"></p>
+
 # FeiHou-Ai-Studio
 
 花果山AI灵境坊 Windows 客户端的安装包、更新包、版本清单与说明。当前版本：**`2.1.12`**
