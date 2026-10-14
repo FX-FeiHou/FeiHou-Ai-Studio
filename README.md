@@ -2,17 +2,17 @@
 
 # FeiHou-Ai-Studio
 
-花果山AI灵境坊 Windows 客户端的安装包、更新包、版本清单与说明。当前版本：**`2.1.12`**
+花果山AI灵境坊 Windows 客户端的安装包、更新包、版本清单与说明。当前版本：**`2.1.15`**
 
-## 📥 下载完整安装包（2.1.12）
+## 📥 下载完整安装包（2.1.15）
 
 三个地址是同一个文件，任选一个能下载的即可：
 
-- 🐙 [GitHub 下载](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/download/v2.1.12/FeiHou-Windows-2.1.12-full.zip)
-- ☁️ [Cloudflare R2 下载](https://img.fei-hou.net/lingjing-updates/windows/full/FeiHou-Windows-2.1.12-full.zip)
-- 🚀 [香港服务器下载](https://auth.fei-hou.net/updates/windows/full/FeiHou-Windows-2.1.12-full.zip)
+- 🐙 [GitHub 下载](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/download/v2.1.15/FeiHou-Windows-2.1.15-full.zip)
+- ☁️ [Cloudflare R2 下载](https://img.fei-hou.net/lingjing-updates/windows/full/FeiHou-Windows-2.1.15-full.zip)
+- 🚀 [香港服务器下载](https://auth.fei-hou.net/updates/windows/full/FeiHou-Windows-2.1.15-full.zip)
 
-文件名 `FeiHou-Windows-2.1.12-full.zip`，约 38 MiB，SHA-256：`f8eae63178dc9ba15bef3f7fa5f5a62becb8aafa0f8b97ede51d4c71c8636d51`
+文件名 `FeiHou-Windows-2.1.15-full.zip`，约 38 MiB，SHA-256：`2942621096c650691f5c3de941d7edf60ef4d6d851379533ee3becd256cf0b5b`
 
 > ⚠️ **2.1.0 以下的旧版本（如 1.6.7、1.x、2.0.0）建议直接下载上面的完整包，替换旧版客户端。** 步骤见下方「从旧版客户端换成新版」。
 
@@ -38,28 +38,16 @@ GitHub 自动生成的 Source code ZIP/TAR 是发布说明仓库，不是客户�
 ## 在线更新
 
 - 1.1.4 及以上的客户端都可以在线更新：打开启动器的更新面板，检查更新、下载并安装，会自动选择 Cloudflare R2、香港服务器或 GitHub 线路。
-- 也可以从 [Releases](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/latest) 下载 `FeiHou-Windows-2.1.12-update.zip`，在启动器更新面板中选择本地更新包安装。更新包不能作为独立安装包运行，也不要手动解压到程序目录。
+- 也可以从 [Releases](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/latest) 下载 `FeiHou-Windows-2.1.15-update.zip`，在启动器更新面板中选择本地更新包安装。更新包不能作为独立安装包运行，也不要手动解压到程序目录。
 - 更新会保留 API 配置、模型列表、画布、素材和生成结果。安装后请完全退出客户端（含托盘）再重新打开。
 
-## 2.1.12 更新内容
+## 2.1.13 ～ 2.1.15 更新内容
 
-**生成更稳**
-- 断网时任务不会丢：任务还没发出去时遇到网络问题，联网后会自动提交，只提交一次。
-- 提交时网络中断、无法确认 API 站是否收到时，会自动到 API 站任务记录里查找：找到就接回结果，确认没收到（未扣费）就自动重新提交，不用再手动找任务 ID。
-- 网络不通导致的报错，会提示「请关闭或打开 VPN 之后重试」。
-- 合并视频修复：不再卡在「合并中」，每段接缝处不再停顿。
+- 修复从网上下载完整包、用 Windows 自带解压后，启动时报「未能加载 Microsoft.Web.WebView2.WinForms……不支持操作」无法打开的问题。（2.1.15）
+- 修复本地 ComfyUI 生成 Easy H3 视频时，报「当前 ComfyUI 没有 xflow/gpt-5.5」导致无法生成的问题。（2.1.14）
+- 修复 Google 登录出错、部分账号无法登录的问题。（2.1.13）
 
-**生成参数记录**
-- 每个生成的图片、视频都会记录提交时的参数（提示词、模型、比例、分辨率、时长、参考图），并自动收进资产库。
-- 从资产库添加到画布、从生成历史选回结果时，节点的模型设置和提示词会一起恢复。
-
-**画布**
-- 新建图像节点默认 GPT Image 2.5 全球低价版，视频节点默认 Seedance 2.0 Mini 宽审核。
-- 多张图片拖进画布后，组里按宫格平铺；删除组时只拆开组，图片保留在原位置。
-- 制作包文件夹可以直接拖到画布任意位置导入；拖到其他页面时可选择导入到哪张画布或新建画布。
-- 资产、故事板、分镜、合并节点支持右键菜单：复制、粘贴、创建副本、重命名、删除。
-- 故事板节点可以把修改的提示词保存回制作包 HTML；资产、故事板、分镜节点新增「重新载入」，外部 Agent 改过页面后可以一键刷新，已生成的内容和状态都保留。
-- 新建的分镜节点更宽，参数一行放得下。
+2.1.12 及更早的更新内容见 [Releases](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases)。
 
 ## 安全
 
