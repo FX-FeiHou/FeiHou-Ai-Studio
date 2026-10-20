@@ -2,17 +2,17 @@
 
 # FeiHou-Ai-Studio
 
-花果山AI灵境坊 Windows 客户端的安装包、更新包、版本清单与说明。当前版本：**`2.1.15`**
+花果山AI灵境坊 Windows 客户端的安装包、更新包、版本清单与说明。当前版本：**`2.2.0`**
 
-## 📥 下载完整安装包（2.1.15）
+## 📥 下载完整安装包（2.2.0）
 
 三个地址是同一个文件，任选一个能下载的即可：
 
-- 🐙 [GitHub 下载](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/download/v2.1.15/FeiHou-Windows-2.1.15-full.zip)
-- ☁️ [Cloudflare R2 下载](https://img.fei-hou.net/lingjing-updates/windows/full/FeiHou-Windows-2.1.15-full.zip)
-- 🚀 [香港服务器下载](https://auth.fei-hou.net/updates/windows/full/FeiHou-Windows-2.1.15-full.zip)
+- 🐙 [GitHub 下载](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/download/v2.2.0/FeiHou-Windows-2.2.0-full.zip)
+- ☁️ [Cloudflare R2 下载](https://img.fei-hou.net/lingjing-updates/windows/full/FeiHou-Windows-2.2.0-full.zip)
+- 🚀 [香港服务器下载](https://auth.fei-hou.net/updates/windows/full/FeiHou-Windows-2.2.0-full.zip)
 
-文件名 `FeiHou-Windows-2.1.15-full.zip`，约 38 MiB，SHA-256：`2942621096c650691f5c3de941d7edf60ef4d6d851379533ee3becd256cf0b5b`
+文件名 `FeiHou-Windows-2.2.0-full.zip`，约 38 MiB，SHA-256：`e31036fda5d2f7287069b3c8ee5f46617683e6590b67366a8ba8b4a06e6ecc57`
 
 > ⚠️ **2.1.0 以下的旧版本（如 1.6.7、1.x、2.0.0）建议直接下载上面的完整包，替换旧版客户端。** 步骤见下方「从旧版客户端换成新版」。
 
@@ -38,16 +38,21 @@ GitHub 自动生成的 Source code ZIP/TAR 是发布说明仓库，不是客户�
 ## 在线更新
 
 - 1.1.4 及以上的客户端都可以在线更新：打开启动器的更新面板，检查更新、下载并安装，会自动选择 Cloudflare R2、香港服务器或 GitHub 线路。
-- 也可以从 [Releases](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/latest) 下载 `FeiHou-Windows-2.1.15-update.zip`，在启动器更新面板中选择本地更新包安装。更新包不能作为独立安装包运行，也不要手动解压到程序目录。
+- 也可以从 [Releases](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/latest) 下载 `FeiHou-Windows-2.2.0-update.zip`，在启动器更新面板中选择本地更新包安装。更新包不能作为独立安装包运行，也不要手动解压到程序目录。
 - 更新会保留 API 配置、模型列表、画布、素材和生成结果。安装后请完全退出客户端（含托盘）再重新打开。
 
-## 2.1.13 ～ 2.1.15 更新内容
+## 2.1.16 ～ 2.2.0 更新内容
 
-- 修复从网上下载完整包、用 Windows 自带解压后，启动时报「未能加载 Microsoft.Web.WebView2.WinForms……不支持操作」无法打开的问题。（2.1.15）
-- 修复本地 ComfyUI 生成 Easy H3 视频时，报「当前 ComfyUI 没有 xflow/gpt-5.5」导致无法生成的问题。（2.1.14）
-- 修复 Google 登录出错、部分账号无法登录的问题。（2.1.13）
+- **新增「影视工坊」**：左侧导航新增入口，把制作包的资产、故事板、分镜、合并四个步骤做成整页界面；可导入制作包、切换分集，随时在无限画布里打开同一个项目。（2.2.0）
+- **画布 Agent 改用花果山 API 站的语言模型**：可选 DeepSeek、Qwen、GLM、KIMI、豆包等，登录花果山账号即可使用，按用量扣费；支持工作文件夹、Skills、附件和对话历史。（2.2.0）
+- 选择文件夹改用 Windows 资源管理器样式的窗口。（2.2.0）
+- H3 模型设置会记住：保存一次后，新建的 H3 节点（包括分镜节点）都自动沿用。（2.1.19）
+- 合并视频修复：ffmpeg 损坏或版本不对（提示「不支持的16位应用程序」）时自动改用其他能用的 ffmpeg，都不能用时提示重新下载。（2.1.19）
+- 修复部分用户登录后，故事板、资产等节点的图片模型下拉框空白的问题。（2.1.18）
+- 连续剧制作包：资产清单全剧共用一份，分集按文件夹存放，导入时可勾选分集；全自动影视 Skills 升级到 1.7.0。（2.1.17）
+- 登录页「使用 Google 账号继续」按钮始终显示，网络慢或 VPN 不通时也不会消失。（2.1.16）
 
-2.1.12 及更早的更新内容见 [Releases](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases)。
+2.1.15 及更早的更新内容见 [Releases](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases)。
 
 ## 安全
 
