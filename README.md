@@ -2,17 +2,17 @@
 
 # FeiHou-Ai-Studio
 
-花果山AI灵境坊 Windows 客户端的安装包、更新包、版本清单与说明。当前版本：**`2.2.8`**
+花果山AI灵境坊 Windows 客户端的安装包、更新包、版本清单与说明。当前版本：**`2.2.9`**
 
-## 📥 下载完整安装包（2.2.8）
+## 📥 下载完整安装包（2.2.9）
 
 三个地址是同一个文件，任选一个能下载的即可：
 
-- 🐙 [GitHub 下载](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/download/v2.2.8/FeiHou-Windows-2.2.8-full.zip)
-- ☁️ [Cloudflare R2 下载](https://img.fei-hou.net/lingjing-updates/windows/full/FeiHou-Windows-2.2.8-full.zip)
-- 🚀 [香港服务器下载](https://auth.fei-hou.net/updates/windows/full/FeiHou-Windows-2.2.8-full.zip)
+- 🐙 [GitHub 下载](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/download/v2.2.9/FeiHou-Windows-2.2.9-full.zip)
+- ☁️ [Cloudflare R2 下载](https://img.fei-hou.net/lingjing-updates/windows/full/FeiHou-Windows-2.2.9-full.zip)
+- 🚀 [香港服务器下载](https://auth.fei-hou.net/updates/windows/full/FeiHou-Windows-2.2.9-full.zip)
 
-文件名 `FeiHou-Windows-2.2.8-full.zip`，约 38 MiB，SHA-256：`b61ecf8bea0426d87cd529115638c6c1ec8abd952bb4960a6bd000bc7a5e8198`
+文件名 `FeiHou-Windows-2.2.9-full.zip`，约 38 MiB，SHA-256：`f757e69c2ad6d991cef09fae48af9693c4863bf8b66a1a00759041cc20ad10b4`
 
 > ⚠️ **2.1.0 以下的旧版本（如 1.6.7、1.x、2.0.0）建议直接下载上面的完整包，替换旧版客户端。** 步骤见下方「从旧版客户端换成新版」。
 
@@ -38,11 +38,13 @@ GitHub 自动生成的 Source code ZIP/TAR 是发布说明仓库，不是客户�
 ## 在线更新
 
 - 1.1.4 及以上的客户端都可以在线更新：打开启动器的更新面板，检查更新、下载并安装，会自动选择 Cloudflare R2、香港服务器或 GitHub 线路。
-- 也可以从 [Releases](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/latest) 下载 `FeiHou-Windows-2.2.8-update.zip`，在启动器更新面板中选择本地更新包安装。更新包不能作为独立安装包运行，也不要手动解压到程序目录。
+- 也可以从 [Releases](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/latest) 下载 `FeiHou-Windows-2.2.9-update.zip`，在启动器更新面板中选择本地更新包安装。更新包不能作为独立安装包运行，也不要手动解压到程序目录。
 - 更新会保留 API 配置、模型列表、画布、素材和生成结果。安装后请完全退出客户端（含托盘）再重新打开。
 
-## 2.2.1 ～ 2.2.8 更新内容
+## 2.2.1 ～ 2.2.9 更新内容
 
+- **新增「AI 应用」栏目**：在客户端里直接使用上百个 RunningHub 热门应用（动作迁移、人物替换、数字人、图生视频、图片编辑、高清放大等），不用另开 RH 账号；按卡片价格从账号余额扣费，视频类每次 ¥0.49～0.68，图片类每次 ¥0.05～0.12。每人同时运行一个，人多时自动排队，排队期间可随时取消、不扣费。（2.2.9）
+- 客户端启动更快；公告弹窗一次一条、可翻页，支持排版和图片，修复时间显示为 1970 年；注册发送验证码失败时提示具体原因。（2.2.9）
 - **修复客户端内充值看不到支付页**：点「支付宝支付」后支付宝收款码直接显示在充值框里，也可以点「在浏览器中打开」付款；之前没显示出来的订单都没有付款。（2.2.8）
 - 窗口最大化后，右上角按钮显示「向下还原」图标；本地 H3 模型设置保存到本机，更新后不用重新设置；注册按 API 站规则提示（用户名不超过 20 位、密码 8～20 位）；制作包里 audio_files 的音色参考也能导入；切回影视工坊自动刷新项目列表。（2.2.8）
 - **修复登录后出图全部失败、报「invalid or disabled API token」**：每台电脑自动使用自己的专用 API Key「花果山画布-本机编号」，不再借用账号里其他工具（如 WorkBuddy）的 Key。更新后请退出账号、重新登录一次。（2.2.7）
