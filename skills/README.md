@@ -10,6 +10,6 @@
 | MV 分镜 Plus feihou-mv-storyboard-prompts-plus | 2026-11-21 | [feihou-mv-storyboard-prompts-plus-20261121.zip](feihou-mv-storyboard-prompts-plus-20261121.zip) | MiniMax H3 MV / 数字人分镜，中英提示词页、分镜表、资产补充 |
 | 动作迁移终极版 feihou-h3-motion-ultra | 1.1.0 | [feihou-h3-motion-ultra-1.1.0.zip](feihou-h3-motion-ultra-1.1.0.zip) | FeiHou Easy H3 人物替换 / 动作迁移分镜 md（硬切长视频、少切长视频、短视频；帧窗口、上下文窗口、Remake 上下文） |
 
-画布客户端内置了这些技能，在客户端里可以一键安装到本机 Agent；这里的压缩包方便手动安装或装到其他电脑。
+除 MV 分镜 Free 外，画布客户端都已内置，可在客户端里一键安装到本机 Agent；这里的压缩包方便手动安装或装到其他电脑。
 
 三层楼的小肥猴出品
