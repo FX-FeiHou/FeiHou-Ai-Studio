@@ -20,7 +20,7 @@
 
 两个地址是同一个文件，任选一个能下载的即可：
 
-- 🐙 [GitHub 下载](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/download/mac-v3.2.0/FeiHou-Mac-Universal-3.2.0.zip)
+- 🐙 [GitHub 下载](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/download/v3.2.0/FeiHou-Mac-Universal-3.2.0.zip)
 - ☁️ [Cloudflare R2 下载](https://img.fei-hou.net/lingjing-updates/mac/3.2.0/FeiHou-Mac-Universal-3.2.0.zip)
 
 文件名 `FeiHou-Mac-Universal-3.2.0.zip`，约 119 MiB，SHA-256：`f0c7ce00535354ba13b48c6c2d0834ff980f038b5c7c00f5cad24aacfeea9e9c`
