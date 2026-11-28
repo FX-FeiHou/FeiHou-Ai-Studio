@@ -2,7 +2,7 @@
 
 # FeiHou-Ai-Studio
 
-花果山AI灵境坊 Windows 客户端的安装包、更新包、版本清单与说明。当前版本：**`3.0.0`**
+花果山AI灵境坊 Windows / macOS 客户端的安装包、更新包、版本清单与说明。当前版本：**`3.0.0`**
 
 ## 📥 下载完整安装包（3.0.0）
 
@@ -15,6 +15,21 @@
 文件名 `FeiHou-Windows-3.0.0-full.zip`，约 74 MiB，SHA-256：`fcd9ad08f5376d40cfad8e610cbe613399bb1ef95cdf21e29442f2a4dcf71cb2`
 
 > ⚠️ **2.1.0 以下的旧版本（如 1.6.7、1.x、2.0.0）建议直接下载上面的完整包，替换旧版客户端。** 步骤见下方「从旧版客户端换成新版」。
+
+## 🍎 macOS 客户端（3.2.0）
+
+两个地址是同一个文件，任选一个能下载的即可：
+
+- 🐙 [GitHub 下载](https://github.com/FX-FeiHou/FeiHou-Ai-Studio/releases/download/mac-v3.2.0/FeiHou-Mac-Universal-3.2.0.zip)
+- ☁️ [Cloudflare R2 下载](https://img.fei-hou.net/lingjing-updates/mac/3.2.0/FeiHou-Mac-Universal-3.2.0.zip)
+
+文件名 `FeiHou-Mac-Universal-3.2.0.zip`，约 119 MiB，SHA-256：`f0c7ce00535354ba13b48c6c2d0834ff980f038b5c7c00f5cad24aacfeea9e9c`
+
+- macOS 13 或更高，Apple 芯片（M 系列）与 Intel 芯片通用；功能与 Windows 3.2.0 一致。
+- 完整解压后双击「花果山AI灵境坊.app」，保留同目录的 `app` 文件夹；请放在「应用程序」或「文稿」等可写位置。
+- 未做 Apple 开发者签名：首次打开被拦下时，到「系统设置 → 隐私与安全性」点「仍要打开」；提示「已损坏」时按包内「使用说明.txt」处理。
+- **1.6.6 的旧 Mac 版不能直接升级**：退出程序后，用新包整体替换「花果山AI灵境坊.app」和 `app` 文件夹（先把旧版 `app/data`、`app/output`、`app/assets` 里的个人数据复制过去）。
+- 3.2.0 起 Mac 版支持在线更新：工具栏「检查更新」→「立即更新」，只下载改动的部分。
 
 ## 首次安装
 
